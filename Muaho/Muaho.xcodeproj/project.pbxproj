@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF5D22242731765500E35646 /* MuahoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D22232731765500E35646 /* MuahoApp.swift */; };
+		FF5D22262731765500E35646 /* ShopItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D22252731765500E35646 /* ShopItemView.swift */; };
+		FF5D22282731765600E35646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5D22272731765600E35646 /* Assets.xcassets */; };
+		FF5D222B2731765600E35646 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5D222A2731765600E35646 /* Preview Assets.xcassets */; };
+		FF5D22352731765600E35646 /* MuahoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D22342731765600E35646 /* MuahoTests.swift */; };
+		FF5D223F2731765600E35646 /* MuahoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D223E2731765600E35646 /* MuahoUITests.swift */; };
+		FF5D22412731765600E35646 /* MuahoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D22402731765600E35646 /* MuahoUITestsLaunchTests.swift */; };
+		FFF6C20327317BB800B1C1B2 /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF6C20227317BB800B1C1B2 /* ProductItemView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF5D22312731765600E35646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF5D22182731765500E35646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF5D221F2731765500E35646;
+			remoteInfo = Muaho;
+		};
+		FF5D223B2731765600E35646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF5D22182731765500E35646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF5D221F2731765500E35646;
+			remoteInfo = Muaho;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF5D22202731765500E35646 /* Muaho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muaho.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5D22232731765500E35646 /* MuahoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuahoApp.swift; sourceTree = "<group>"; };
+		FF5D22252731765500E35646 /* ShopItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItemView.swift; sourceTree = "<group>"; };
+		FF5D22272731765600E35646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF5D222A2731765600E35646 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF5D22302731765600E35646 /* MuahoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuahoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5D22342731765600E35646 /* MuahoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuahoTests.swift; sourceTree = "<group>"; };
+		FF5D223A2731765600E35646 /* MuahoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuahoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5D223E2731765600E35646 /* MuahoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuahoUITests.swift; sourceTree = "<group>"; };
+		FF5D22402731765600E35646 /* MuahoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuahoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FFF6C20227317BB800B1C1B2 /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF5D221D2731765500E35646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5D222D2731765600E35646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5D22372731765600E35646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF5D22172731765500E35646 = {
+			isa = PBXGroup;
+			children = (
+				FF5D22222731765500E35646 /* Muaho */,
+				FF5D22332731765600E35646 /* MuahoTests */,
+				FF5D223D2731765600E35646 /* MuahoUITests */,
+				FF5D22212731765500E35646 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF5D22212731765500E35646 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF5D22202731765500E35646 /* Muaho.app */,
+				FF5D22302731765600E35646 /* MuahoTests.xctest */,
+				FF5D223A2731765600E35646 /* MuahoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF5D22222731765500E35646 /* Muaho */ = {
+			isa = PBXGroup;
+			children = (
+				FF5D22252731765500E35646 /* ShopItemView.swift */,
+				FF5D22232731765500E35646 /* MuahoApp.swift */,
+				FF5D22272731765600E35646 /* Assets.xcassets */,
+				FF5D22292731765600E35646 /* Preview Content */,
+				FFF6C20227317BB800B1C1B2 /* ProductItemView.swift */,
+			);
+			path = Muaho;
+			sourceTree = "<group>";
+		};
+		FF5D22292731765600E35646 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF5D222A2731765600E35646 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF5D22332731765600E35646 /* MuahoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF5D22342731765600E35646 /* MuahoTests.swift */,
+			);
+			path = MuahoTests;
+			sourceTree = "<group>";
+		};
+		FF5D223D2731765600E35646 /* MuahoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF5D223E2731765600E35646 /* MuahoUITests.swift */,
+				FF5D22402731765600E35646 /* MuahoUITestsLaunchTests.swift */,
+			);
+			path = MuahoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF5D221F2731765500E35646 /* Muaho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF5D22442731765600E35646 /* Build configuration list for PBXNativeTarget "Muaho" */;
+			buildPhases = (
+				FF5D221C2731765500E35646 /* Sources */,
+				FF5D221D2731765500E35646 /* Frameworks */,
+				FF5D221E2731765500E35646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Muaho;
+			productName = Muaho;
+			productReference = FF5D22202731765500E35646 /* Muaho.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF5D222F2731765600E35646 /* MuahoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF5D22472731765600E35646 /* Build configuration list for PBXNativeTarget "MuahoTests" */;
+			buildPhases = (
+				FF5D222C2731765600E35646 /* Sources */,
+				FF5D222D2731765600E35646 /* Frameworks */,
+				FF5D222E2731765600E35646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF5D22322731765600E35646 /* PBXTargetDependency */,
+			);
+			name = MuahoTests;
+			productName = MuahoTests;
+			productReference = FF5D22302731765600E35646 /* MuahoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF5D22392731765600E35646 /* MuahoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF5D224A2731765600E35646 /* Build configuration list for PBXNativeTarget "MuahoUITests" */;
+			buildPhases = (
+				FF5D22362731765600E35646 /* Sources */,
+				FF5D22372731765600E35646 /* Frameworks */,
+				FF5D22382731765600E35646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF5D223C2731765600E35646 /* PBXTargetDependency */,
+			);
+			name = MuahoUITests;
+			productName = MuahoUITests;
+			productReference = FF5D223A2731765600E35646 /* MuahoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF5D22182731765500E35646 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					FF5D221F2731765500E35646 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					FF5D222F2731765600E35646 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FF5D221F2731765500E35646;
+					};
+					FF5D22392731765600E35646 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FF5D221F2731765500E35646;
+					};
+				};
+			};
+			buildConfigurationList = FF5D221B2731765500E35646 /* Build configuration list for PBXProject "Muaho" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF5D22172731765500E35646;
+			productRefGroup = FF5D22212731765500E35646 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF5D221F2731765500E35646 /* Muaho */,
+				FF5D222F2731765600E35646 /* MuahoTests */,
+				FF5D22392731765600E35646 /* MuahoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF5D221E2731765500E35646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5D222B2731765600E35646 /* Preview Assets.xcassets in Resources */,
+				FF5D22282731765600E35646 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5D222E2731765600E35646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5D22382731765600E35646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF5D221C2731765500E35646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5D22262731765500E35646 /* ShopItemView.swift in Sources */,
+				FFF6C20327317BB800B1C1B2 /* ProductItemView.swift in Sources */,
+				FF5D22242731765500E35646 /* MuahoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5D222C2731765600E35646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5D22352731765600E35646 /* MuahoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5D22362731765600E35646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5D223F2731765600E35646 /* MuahoUITests.swift in Sources */,
+				FF5D22412731765600E35646 /* MuahoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF5D22322731765600E35646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF5D221F2731765500E35646 /* Muaho */;
+			targetProxy = FF5D22312731765600E35646 /* PBXContainerItemProxy */;
+		};
+		FF5D223C2731765600E35646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF5D221F2731765500E35646 /* Muaho */;
+			targetProxy = FF5D223B2731765600E35646 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FF5D22422731765600E35646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF5D22432731765600E35646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF5D22452731765600E35646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Muaho/Preview Content\"";
+				DEVELOPMENT_TEAM = L2U236935G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tinyflutterteam.Muaho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF5D22462731765600E35646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Muaho/Preview Content\"";
+				DEVELOPMENT_TEAM = L2U236935G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tinyflutterteam.Muaho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF5D22482731765600E35646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L2U236935G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tinyflutterteam.MuahoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Muaho.app/Muaho";
+			};
+			name = Debug;
+		};
+		FF5D22492731765600E35646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L2U236935G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tinyflutterteam.MuahoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Muaho.app/Muaho";
+			};
+			name = Release;
+		};
+		FF5D224B2731765600E35646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L2U236935G;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tinyflutterteam.MuahoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Muaho;
+			};
+			name = Debug;
+		};
+		FF5D224C2731765600E35646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L2U236935G;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tinyflutterteam.MuahoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Muaho;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF5D221B2731765500E35646 /* Build configuration list for PBXProject "Muaho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF5D22422731765600E35646 /* Debug */,
+				FF5D22432731765600E35646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF5D22442731765600E35646 /* Build configuration list for PBXNativeTarget "Muaho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF5D22452731765600E35646 /* Debug */,
+				FF5D22462731765600E35646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF5D22472731765600E35646 /* Build configuration list for PBXNativeTarget "MuahoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF5D22482731765600E35646 /* Debug */,
+				FF5D22492731765600E35646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF5D224A2731765600E35646 /* Build configuration list for PBXNativeTarget "MuahoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF5D224B2731765600E35646 /* Debug */,
+				FF5D224C2731765600E35646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF5D22182731765500E35646 /* Project object */;
+}

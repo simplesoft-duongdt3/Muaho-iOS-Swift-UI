@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF45BF892737DFB200ADB887 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF45BF882737DFB200ADB887 /* TopBarView.swift */; };
 		FF5D22242731765500E35646 /* MuahoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D22232731765500E35646 /* MuahoApp.swift */; };
 		FF5D22262731765500E35646 /* ShopItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D22252731765500E35646 /* ShopItemView.swift */; };
 		FF5D22282731765600E35646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5D22272731765600E35646 /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 		FF5D22352731765600E35646 /* MuahoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D22342731765600E35646 /* MuahoTests.swift */; };
 		FF5D223F2731765600E35646 /* MuahoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D223E2731765600E35646 /* MuahoUITests.swift */; };
 		FF5D22412731765600E35646 /* MuahoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D22402731765600E35646 /* MuahoUITestsLaunchTests.swift */; };
+		FF673F0B2737CF2600E85D5A /* ShopCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF673F0A2737CF2600E85D5A /* ShopCategoryView.swift */; };
+		FF673F0E2737DA4600E85D5A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF673F0D2737DA4600E85D5A /* HomeView.swift */; };
 		FFF6C20327317BB800B1C1B2 /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF6C20227317BB800B1C1B2 /* ProductItemView.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF45BF882737DFB200ADB887 /* TopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
 		FF5D22202731765500E35646 /* Muaho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muaho.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF5D22232731765500E35646 /* MuahoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuahoApp.swift; sourceTree = "<group>"; };
 		FF5D22252731765500E35646 /* ShopItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItemView.swift; sourceTree = "<group>"; };
@@ -45,6 +49,8 @@
 		FF5D223A2731765600E35646 /* MuahoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuahoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF5D223E2731765600E35646 /* MuahoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuahoUITests.swift; sourceTree = "<group>"; };
 		FF5D22402731765600E35646 /* MuahoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuahoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF673F0A2737CF2600E85D5A /* ShopCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCategoryView.swift; sourceTree = "<group>"; };
+		FF673F0D2737DA4600E85D5A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FFF6C20227317BB800B1C1B2 /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF45BF872737DFA000ADB887 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				FF45BF882737DFB200ADB887 /* TopBarView.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
 		FF5D22172731765500E35646 = {
 			isa = PBXGroup;
 			children = (
@@ -96,11 +110,10 @@
 		FF5D22222731765500E35646 /* Muaho */ = {
 			isa = PBXGroup;
 			children = (
-				FF5D22252731765500E35646 /* ShopItemView.swift */,
+				FF673F0C2737DA3000E85D5A /* feature */,
 				FF5D22232731765500E35646 /* MuahoApp.swift */,
 				FF5D22272731765600E35646 /* Assets.xcassets */,
 				FF5D22292731765600E35646 /* Preview Content */,
-				FFF6C20227317BB800B1C1B2 /* ProductItemView.swift */,
 			);
 			path = Muaho;
 			sourceTree = "<group>";
@@ -128,6 +141,34 @@
 				FF5D22402731765600E35646 /* MuahoUITestsLaunchTests.swift */,
 			);
 			path = MuahoUITests;
+			sourceTree = "<group>";
+		};
+		FF673F0C2737DA3000E85D5A /* feature */ = {
+			isa = PBXGroup;
+			children = (
+				FF45BF872737DFA000ADB887 /* common */,
+				FF673F102737DB3D00E85D5A /* home */,
+			);
+			path = feature;
+			sourceTree = "<group>";
+		};
+		FF673F0F2737DA4E00E85D5A /* views */ = {
+			isa = PBXGroup;
+			children = (
+				FF5D22252731765500E35646 /* ShopItemView.swift */,
+				FFF6C20227317BB800B1C1B2 /* ProductItemView.swift */,
+				FF673F0A2737CF2600E85D5A /* ShopCategoryView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		FF673F102737DB3D00E85D5A /* home */ = {
+			isa = PBXGroup;
+			children = (
+				FF673F0F2737DA4E00E85D5A /* views */,
+				FF673F0D2737DA4600E85D5A /* HomeView.swift */,
+			);
+			path = home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,8 +301,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF673F0B2737CF2600E85D5A /* ShopCategoryView.swift in Sources */,
 				FF5D22262731765500E35646 /* ShopItemView.swift in Sources */,
 				FFF6C20327317BB800B1C1B2 /* ProductItemView.swift in Sources */,
+				FF673F0E2737DA4600E85D5A /* HomeView.swift in Sources */,
+				FF45BF892737DFB200ADB887 /* TopBarView.swift in Sources */,
 				FF5D22242731765500E35646 /* MuahoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,7 +480,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tinyflutterteam.Muaho;
+				PRODUCT_BUNDLE_IDENTIFIER = tinyflutterteam.muaho;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -465,7 +509,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tinyflutterteam.Muaho;
+				PRODUCT_BUNDLE_IDENTIFIER = tinyflutterteam.muaho;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

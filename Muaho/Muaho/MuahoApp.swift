@@ -11,7 +11,7 @@ import SwiftUI
 struct MuahoApp: App {
     var body: some Scene {
         WindowGroup {
-            ShopItemView()
+            HomeView()
         }
     }
 }
